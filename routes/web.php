@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/pai', function () {
     return view('kei');
 });
+
+Route::get('/wifkosanngeselein', function () {
+    return view('tch');
+}); 
