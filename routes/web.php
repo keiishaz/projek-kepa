@@ -21,6 +21,6 @@ Route::get('/pai', function () {
     return view('kei');
 });
 
-Route::get('/asas', function () {
-    return view('asanjsn');
-});
+Route::get('/wifkosanngeselein', function () {
+    return view('tch');
+}); 
