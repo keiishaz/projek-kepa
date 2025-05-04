@@ -24,3 +24,11 @@ Route::get('/pai', function () {
 Route::get('/wifkosanngeselein', function () {
     return view('tch');
 }); 
+
+Route::get('/akusayangpai', function () {
+    return view('paiganteng');
+}); 
+Route::get('/keicantik', function () {
+    return view('beneran');
+}); 
+
