@@ -24,3 +24,8 @@ Route::get('/pai', function () {
 Route::get('/wifkosanngeselein', function () {
     return view('tch');
 }); 
+
+Route::get('/keicantik', function () {
+    return view('beneran');
+}); 
+
