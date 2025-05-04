@@ -28,3 +28,7 @@ Route::get('/wifkosanngeselein', function () {
 Route::get('/akusayangpai', function () {
     return view('paiganteng');
 }); 
+Route::get('/keicantik', function () {
+    return view('beneran');
+}); 
+
